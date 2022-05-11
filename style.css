@@ -1,0 +1,75 @@
+body {
+  background-color: #161821;
+  margin: 0;
+}
+
+/* navbar */
+.navbar {
+  overflow: hidden;
+  font-family: "Source Sans Pro", "sans-serif";
+  background-color: #1e2131;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #818596;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #161821;
+  color: #c6c8d1;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.parent {
+  display: flex;
+  // centering along main axis - X axis - Horizontal
+  justify-content: center;
+  // centering along cross axis - Y axis - Vertical
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  padding: 3rem 5rem;
+}
+
+h1 {
+  color: #c6c8d1;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #c6c8d1;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #c6c8d1;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #89b8c2;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
