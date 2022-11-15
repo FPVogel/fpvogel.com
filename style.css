@@ -3,10 +3,21 @@ body {
   margin: 0;
 }
 
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('sourcesanspro-stripped-webfont.woff2') format('woff2'),
+         url('sourcesanspro-stripped-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
 /* navbar */
 .navbar {
   overflow: hidden;
-  font-family: "Source Sans Pro", "sans-serif";
+  font-family: "source_sans_proregular", "sans-serif";
   background-color: #1e2131;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -52,24 +63,24 @@ body {
 
 h1 {
   color: #c6c8d1;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "source_sans_proregular", sans-serif;
   text-align: center;
 }
 
 h2 {
   color: #c6c8d1;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "source_sans_proregular", sans-serif;
   text-align: center;
 }
 
 p {
   color: #c6c8d1;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "source_sans_proregular", sans-serif;
   text-align: center;
 }
 
 a {
   color: #89b8c2;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "source_sans_proregular", sans-serif;
   text-align: center;
 }
